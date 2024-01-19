@@ -1,0 +1,7 @@
+#INPUT
+
+# MEMORY
+
+#PROCESS
+
+#OUTPUT
