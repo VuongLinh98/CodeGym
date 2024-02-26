@@ -1,5 +1,5 @@
 from random import *
-print("Chào mừng bạn!")
+print("Chào mừng bạn^^")
 while True :
     #Khai báo biến tổng số đếm:
     current_number = 0
