@@ -1,13 +1,6 @@
-def cal(a, b=3):
+languages = ("PHP", "Python", "C#")
 
-    sum = a + b
-
-    sub = a - b
-
-    mul = a * b
-
-    return sum, sub, mul
-
-s, sub, mul = cal(6)
-
-print(s, mul, sub)
+(php, python, c_sharp) = languages
+print(php)
+print(python)
+print(c_sharp)
