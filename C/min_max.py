@@ -25,3 +25,13 @@ print("max_2 :", get_max_2(my_list))
 
 print("max number: ", get_max(my_list))
 print("min number: ", get_min(my_list))
+
+def get_2_max(my_list) :
+    max1 = 0
+    max2 = 0
+    for b in range(1,len(my_list)-1) :
+        if my_list[b] > max1 :
+            max2 = max1
+            max1 = my_list[b]
+    return max1, max2
+print("2 max number: ", get_2_max(my_list))
