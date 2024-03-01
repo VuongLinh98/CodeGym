@@ -1,6 +1,17 @@
-languages = ("PHP", "Python", "C#")
+x = 5
 
-(php, python, c_sharp) = languages
-print(php)
-print(python)
-print(c_sharp)
+def foo():
+
+    global x
+
+    x = 4
+
+def bar(a, b):
+
+    global x
+
+    return a + b + x
+
+foo()
+
+print(bar(7, 8))
