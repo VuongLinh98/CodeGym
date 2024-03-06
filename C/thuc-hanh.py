@@ -1,17 +1,11 @@
-x = 5
+tuples1 = (10, 20, 30, 0)
 
-def foo():
+tuples2 = ("a", "b")
 
-    global x
+tuples3 = tuples1 + tuples2
 
-    x = 4
+a = tuples3[3:5]
 
-def bar(a, b):
+for i in a:
 
-    global x
-
-    return a + b + x
-
-foo()
-
-print(bar(7, 8))
+    print(i, end="")

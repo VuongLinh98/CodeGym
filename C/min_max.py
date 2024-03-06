@@ -16,7 +16,7 @@ def get_min(my_list) :
 
 def get_max_2(my_list) :
     max = 0
-    for x in range(1,len(my_list)-1) :
+    for x in range(len(my_list)) :
         if my_list[x] > max :
             max_2 = max
             max = my_list[x]
@@ -29,7 +29,7 @@ print("min number: ", get_min(my_list))
 def get_2_max(my_list) :
     max1 = 0
     max2 = 0
-    for b in range(1,len(my_list)-1) :
+    for b in range(len(my_list)) :
         if my_list[b] > max1 :
             max2 = max1
             max1 = my_list[b]
