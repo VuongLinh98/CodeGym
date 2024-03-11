@@ -1,7 +1,7 @@
 import turtle
 
 t = turtle.Turtle()
-t.speed(10)
+t.speed(20)
 t.color("blue")
 
 for i in range(1,100):
