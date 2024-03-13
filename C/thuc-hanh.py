@@ -1,11 +1,15 @@
-tuples1 = (10, 20, 30, 0)
+class Number:
 
-tuples2 = ("a", "b")
+    num = 20
 
-tuples3 = tuples1 + tuples2
+    def __init__(self, num):
 
-a = tuples3[3:5]
+        self.num = num
 
-for i in a:
+        print(self.num)
 
-    print(i, end="")
+    def __init__(self):
+
+        print(self.num)
+
+n = Number(10)
