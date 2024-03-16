@@ -1,7 +1,17 @@
-Dictionary = {
-    "Hello" : "Xin chào",
-    "Bye" : "Tạm biệt",
-    "Green" : "Màu xanh lá cây"
-}
+a = {}
 
-print(Dictionary["Hello"])
+a[1] = 1
+
+a['1'] = 2
+
+a[1.0]=4
+
+count = 0
+
+for i in a:
+
+    count += a[i]
+
+print(count)
+
+
