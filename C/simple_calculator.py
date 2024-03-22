@@ -25,7 +25,7 @@ def onEqual():
 # Hàm xử lý khi nhấn phím Clear
 def onClear():
     # Xoa toan bo ô input
-    nhapSo.delete(0, 'end')
+    nhapSo.delete(0, 'end') 
 
 #tạo phím ấn
 Button(root,width=4,height=2, text="1",command=lambda: onPress('1')).grid( row=1,column=0,pady=2 )
