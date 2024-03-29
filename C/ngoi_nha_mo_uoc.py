@@ -6,6 +6,7 @@ turtle.bgcolor("#ffe7bc")
 #khởi tạo con con trỏ
 t = turtle.Turtle()
 t.pensize(3)
+t.speed(30)
 #Vẽ ngôi nhà
     #Mái nhà
 t.penup()
